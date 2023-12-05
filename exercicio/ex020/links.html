@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links HTML/CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: #F50942 ;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:visited {
+            color: #F50942;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: orangered;
+        }
+
+        ul {
+            
+            text-align: center;
+        }
+
+        li {
+            padding-bottom: 10px;
+        }
+
+        li::before {
+            content: "→ ";
+        }
+
+        li::after {
+            content: "  ←";
+        }
+
+        div {
+            background-color:#0AB7F5  ;
+            border-radius: 19px;
+            border-color: black;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando LINKS</h1>
+    <div>
+    <ul type="none">
+        <a target="_blank" href="https://github.com/Kysas1">
+            <li>Meu Github</li>
+        </a>
+        <a target="_blank"  href="https://www.youtube.com/channel/UCRz6VMvrBiwdU8qMmHylDJg">
+            <li>Meu Youtube</li>
+        </a>
+        <a target="_blank"  href="https://www.linkedin.com/in/pedro-muniz-594042267/">
+            <li>Meu Linkedin</li>
+        </a>
+    </ul>
+    </div>
+</body>
+</html>

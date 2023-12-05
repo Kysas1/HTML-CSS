@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* tudo com " id " em HTML é # em css
+    tudo que é " class " em HTML é . em css */
+
+body {
+    background-color: rgb(90, 41, 113);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(153, 51, 80);
+    
+}
+
+h1#main {
+    text-align: center;
+    background-color: rgb(153, 51, 80);
+    color: rgb(54, 50, 118) ;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family:  Courier, monospace
+}
+
+.basic {
+    color: rgb(156, 255, 156);
+}
+
+.medium {
+    color: rgb(245, 245, 137);
+}
+
+.hard {
+    color: red;
+}

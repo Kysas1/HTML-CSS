@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-fogo : rgb(255, 72, 0);
+    --cor-agua : rgb(0, 106, 138);
+    --cor-grass : rgb(9, 121, 9);
+}
+
+@font-face {
+    font-family: pokemoon;
+    src: url(../font/Pokemon\ Solid.ttf);
+    
+}
+
+main  {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-size-adjust: 100%;
+    
+}
+
+
+
+h1 {
+    font-family: pokemoon;
+}
+header {
+    text-align: center;
+    background-image: url(../img/pokebola-grande.png);
+    background-repeat: no-repeat;
+    border: 5px solid rgb(145, 137, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+    box-shadow: 1px 7px 3px #00000063
+}
+
+.main-logo {
+    text-align: center;
+    margin: auto;
+   
+}
+
+nav {
+    margin: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: RIGHT;
+}
+
+nav > a {
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 17px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.fire {
+    color: rgb(255, 72, 0);
+}
+
+.water {
+    color: rgb(0, 106, 138);
+}
+
+.grass {
+    color: rgb(9, 121, 9);
+}
+
+nav .a-fire {
+    color: var(--cor-fogo);
+    padding: 5px;
+}
+
+nav .a-water {
+    color : var(--cor-agua);
+    padding: 5px;
+}
+
+nav .a-grass {
+    color: var(--cor-grass);
+    padding: 5px;
+}
+
+nav .a-water:hover {
+    color: rgb(107, 107, 5);
+    font: bold;
+    border: 2px solid rgb(62, 62, 255);
+    border-radius: 5px;
+}
+
+nav .a-fire:hover {
+    color: rgb(107, 107, 5);
+    font: bold;
+    border: 2px solid rgb(252, 69, 14);
+    border-radius: 5px;
+}
+
+nav .a-grass:hover {
+    color: rgb(107, 107, 5);
+    font: bold;
+    border: 2px solid rgb(45, 122, 0);
+    border-radius: 5px;
+}
+
+.logo {
+    width: 300px;
+    margin: 20px;
+   
+}
+
+
+
+.redu-squirt {
+    width: 400px;
+    height: 400px;
+}
+
+.fundo {
+    background-color: #c0c0c0;
+    min-width: 350px;
+    max-width: 950px;
+    margin: auto;
+    padding-left: 20px  ;
+    border: 5px solid rgb(145, 137, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.301);
+}
+
+.rizado {
+    position:relative
+}
+
+.charmander {
+    max-width: 300px;
+    position: absolute;
+    right:100px;
+    top: 100px;
+}
+
+.type {
+    position: absolute;
+    right: 220px;
+    top: 410px;
+    width: 150px;
+    
+}
+
+.rizado h2 {
+    font-size: 2.0em;
+    margin-bottom: 9px;
+    text-decoration: underline;
+    
+}
+
+.rizado .fire-b {
+    width: 400px;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 15px;
+    background-image: linear-gradient(to right,rgba(255, 94, 0, 0.486),transparent  );
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+main p {
+    text-indent: 9px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.rizado .evo-fire {
+    margin: auto;
+    width: 40%;
+    
+}
+
+.evo  {
+    text-align: center;
+    
+}
+
+.evo h2 {
+    font-family: pokemoon;
+    text-decoration: none;
+}
+
+.evo-img {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.459);
+}
+
+.squirtle {
+    position: relative;
+}
+
+.redu-squirt {
+    position: absolute;
+    right:100px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.squirtle .water-b {
+    width: 400px;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 15px;
+    background-image: linear-gradient(to right,rgba(0, 255, 242, 0.37),transparent  );
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.squirtle h2 {
+    font-size: 2.0em;
+    margin-bottom: 9px;
+    text-decoration: underline;
+    
+}
+
+.evo .water {
+    padding-top: 30px;
+}
+
+.bulba {
+    position: relative;
+}
+
+.bulbasauro {
+    position: absolute;
+    right:100px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.grass-b {
+    width: 400px;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 15px;
+    background-image: linear-gradient(to right,rgba(34, 218, 10, 0.37),transparent  );
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.bulba h2 { 
+    font-size: 2.0em;
+    margin-bottom: 9px;
+}
+
+footer {
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(149, 149, 248);
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+}
+
+footer  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: var(--cor-fogo);
+    transition: 1s;
+}
