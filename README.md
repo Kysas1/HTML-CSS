@@ -7,4 +7,4 @@
 
 <a target="_blank" href="https://kysas1.github.io/HTML-CSS/projeto-solarsystem/">Projeto Solar-System</a>
 
-
+<a target="_blank" href="https://kysas1.github.io/Parallax---jp/">Projeto w/ Parallax </a>
