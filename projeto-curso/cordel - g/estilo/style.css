@@ -37,7 +37,27 @@
     transition: 1s;
   }
 
-  
+  section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2.0em;
+    padding-left: 30px;
+  }
+
+  section.normal {
+    background-color: white;
+    color: black;
+  }
+
+  section.imagem {
+    background-color: rgb(44, 44, 44);
+    color: white;
+  }
+
+  section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 400px;
+  }
 
 
   footer {
