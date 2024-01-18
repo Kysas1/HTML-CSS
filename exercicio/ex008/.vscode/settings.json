@@ -1,4 +1,5 @@
 {
     "workbench.preferredDarkColorTheme": "Default Dark+",
-    "workbench.colorTheme": "Default Dark+"
+    "workbench.colorTheme": "Default Dark+" ,
+    "editor.fontFamily": "JetBrains Mono Regular" ,   
 }
