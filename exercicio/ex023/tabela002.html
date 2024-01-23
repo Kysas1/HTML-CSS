@@ -13,6 +13,7 @@
         table {
             width: 450px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-weight: bold ;
@@ -23,6 +24,11 @@
         }
         tbody > tr:nth-child(2n) {
             background-color: grey;
+        }
+        thead >tr >th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
         
         td,th {
