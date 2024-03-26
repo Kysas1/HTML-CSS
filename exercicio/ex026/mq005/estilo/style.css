@@ -65,7 +65,8 @@ span#burguer:hover {
    border-radius: 7px;
    padding: 20px;
    border: 1px solid rgba(0, 0, 0, 0.418);
-   margin: 17px 0px 17px 0px;
+   margin-top: 16px;
+   margin-bottom: 16px;
  }
 
  article > h2 {
